@@ -1,0 +1,32 @@
+[project]
+name = "sage"
+version = "1.0.0"
+description = "SAGE: Stochastic Prompt Optimization via Agent-Guided Exploration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai",
+    "tiktoken",
+    "python-dotenv",
+    "claude-agent-sdk",
+]
+
+[project.optional-dependencies]
+analysis = ["numpy", "scipy", "matplotlib"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sage*"]
+
+[tool.setuptools.package-data]
+sage = ["prompts/*.txt"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
