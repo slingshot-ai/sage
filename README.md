@@ -7,7 +7,7 @@ Code for the EMNLP 2026 Industry Track paper:
 > **SAGE: Stochastic Prompt Optimization via Agent-Guided Exploration**
 > Ziyi Zhu, Luka Smyth, Saki Shinoda, Jinghong Chen
 > *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track*, pages 3695–3711.
-> [[Paper]](https://aclanthology.org/2026.emnlp-industry.221/) [[PDF]](https://aclanthology.org/2026.emnlp-industry.221.pdf)
+> [[Paper]](https://aclanthology.org/2026.emnlp-industry.221/) [[PDF]](https://aclanthology.org/2026.emnlp-industry.221.pdf) [[DOI]](https://doi.org/10.18653/2026.emnlp-industry.221)
 
 <p align="center">
   <img src="images/overview.png" alt="SAGE iteration pipeline" width="820"/>
@@ -186,8 +186,9 @@ scripts/download_data.sh   FiNER and Formula data
     address = "Budapest, Hungary",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2026.emnlp-industry.221/",
+    doi = "10.18653/2026.emnlp-industry.221",
     pages = "3695--3711",
-    ISBN = "979-8-89176-460-6",
+    ISBN = "979-8-89176-460-6"
 }
 ```
 
